@@ -1,10 +1,11 @@
 .header{
-    width: 500px;
+    width: 400px;
     height: 150px;
     background-color: whitesmoke;
     color: black;
-    padding: 10px 10px;
+    padding: 15px 15px;
     outline-style: auto;
+    margin-bottom: 10px;
 }
 
 button{
@@ -17,14 +18,12 @@ button{
 
 }
 a{
-    color: black;
+    color: blue;
+    margin-right: 5px;
 }
 .likes{
     display: flex;
     align-items: center;
-}
-a{
-    margin-right: 5px;
 }
 button{
     background-color: orange;
@@ -32,4 +31,40 @@ button{
 .bottom-div{
     text-align: center;
     align-items: center;
+}
+.network{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: antiquewhite;
+}
+.feed{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    width: 700px;
+}
+.profile{
+    width: 150px;
+    height: 225px;
+    background-color: whitesmoke;
+    color: black;
+    outline-style: auto;
+    text-align: center;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 45%;
 }
